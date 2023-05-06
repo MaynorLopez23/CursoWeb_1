@@ -1,0 +1,107 @@
+body {
+    background-color: #7AA874;
+    color: #262626;
+    font-family: Arial, san-serif;
+}
+h1{
+    text-align: center; 
+    color: #262626;
+    font-family: Arial, san-serif;
+    text-shadow: 2px 2px 2px #5e5e5e;
+}
+#contact-form {
+    background-color: #F7DB6A;
+    width: 500px;
+    padding: 20px;
+    margin: 60px auto;
+    border-radius: 300PX;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px #ccc;
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    align-content: center;
+}
+
+#contact-form input,
+#contact-form select,
+#contact-form textarea,
+#contact-form label {
+    font-size: 12px;
+    margin-bottom: 1px;
+    font-family: Arial, san-serif;
+    align-content: center;
+}
+
+input{
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 1px;
+    font-family: Arial, san-serif;
+    align-content: center;
+}
+#contact-form input,
+#contact-form select,
+#contact-form textarea {
+    background-color: #fff;
+    width: 320px;
+    border: 1;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    padding: 5px;
+    align-items: flex-end;
+}
+
+#contact-form input:focus,
+#contact-form select:focus,
+#contact-form textarea:focus {
+    background-color: #c1daf3;
+}
+
+#contact-form textarea {
+    height: 50px;
+    width: 475px;
+}
+
+#contact-form #submit {
+    width: 200px;
+    color: #000;
+    border: none;
+    background-color: #EBB02D;
+    margin-left: 30%;
+    margin-bottom: 10%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+
+}
+
+#contact-form #submit:hover {
+    color: #6ea070;
+    background-color: #bfd7c1;
+}
+
+input:required,
+textarea:required {
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    -o-box-shadow: none;
+}
+
+#failure,
+succes {
+    color: #6ea070;
+    display: none;
+}
+footer{
+    text-align: center;
+    color: #262626;
+    font-family: Arial, san-serif;
+}

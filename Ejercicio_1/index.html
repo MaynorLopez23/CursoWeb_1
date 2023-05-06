@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos del Alumno</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+
+</head>
+
+<body>
+    <div id="contact-form">
+        <h1>Datos del Alumno</h1>
+        <from method="post" action="guardar.php">
+
+            <div>
+                <label for="name">Nombres:<span class="required"></span> </label>
+                <input type="text" id="nombre" name="nombre" value="" placeholder="nombres" required="required" autofocus />
+            </div>
+            <div>
+                <label for="name">Apellidos:</label>
+                <input type="text" id="apellidos" name="apellidos" value="" placeholder="apellidos" />
+            </div>
+            <div>
+                <label for="email">Correo Electrónico:<span class="required">*</span> </label>
+                <input type="email" id="email" name="email" value="" placeholder="nombre@email.com" required="required" />
+            </div>
+            <div>
+                <label for="Password">Password:<span class="required">*</span> </label>
+                <input type="password" id="email" name="contraseña" id="contraseña" size="50" maxlength="30">
+            </div>
+            <div>
+                <label for="subject">Genero: </label>
+                <select id="subject" name="subject">
+                    <option value="H"> Hombre </option>
+                    <option value="M"> Mujer </option>
+                    <option value="O"> Otro </option>
+                </select>
+            </div>
+            <label for="message">Observaciones: <span class="required"></span></label>
+            <textarea id="message" name="message" placeholder="Escribir observaciones" required></textarea>
+            <input type="submit" value="Enviar Datos" id="submit" />
+        </from>
+    </div>
+    <div>
+        <footer>
+            <p>Desarrollado por: <span> Maynor Alexander López Murillo</span></a></p>
+        </footer>
+    </div>
+</body>
+
+</html>
